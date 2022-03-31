@@ -1,0 +1,42 @@
+* {margin: 0;padding: 0;font-size: 24px; color: #fff;}
+a {text-decoration:none; color: #333;}
+li {list-style:none;}
+table {border-spacing:0;}
+.clearfix::before, .clearfix::after {display: block;content:'';clear:both;}
+
+#wrap {width: 1200px; margin:0 auto;}
+
+#header {text-align: center;height: 100px;line-height: 100px;}
+#header .logo {float:left;width: 250px;background: #444;}
+#header .nav {float:left;width: 950px; background: #555;}
+
+#banner {text-align: center; height: 400px;line-height: 400px;background: #666;}
+
+#contents {text-align: center;}
+#contents > div {float:left;height: 247px;width: 33.333333%;}
+#contents > div.cont1 {background: rgb(80, 199, 197);}
+#contents > div.cont2 {line-height: 247px;background: rgb(180, 59, 59);}
+#contents > div.cont3 {line-height: 247px;background: rgb(64, 121, 86);}
+
+.tab-menu {padding: 10px;}
+.tab-menu .tab-btn {}
+.tab-menu .tab-btn ul{overflow:hidden;}
+.tab-menu .tab-btn li{float:left;width: 160px;background: #555;}
+.tab-menu .tab-btn li.active{text-decoration:underline;}
+.tab-menu .tab-btn a {padding: 10px; display: block;color: #fff;}
+.tab-menu .tab-cont {padding: 20px; text-align: left; background: #777;}
+
+
+#footer {text-align: center;}
+#footer > div {float:left;height: 100px;line-height: 100px;}
+#footer .foot1 {width: 200px;background: #666;}
+#footer .foot2 {width: 800px;background: #777;}
+#footer .foot3 {width: 200px;background: #888;}
+
+.layer {
+  width: 500px;height: 500px;background: #fff;
+  border: 2px solid #000;
+  position: absolute;
+  left: 50%;top: 50%;
+}
+.layer h2 {color:#000}
